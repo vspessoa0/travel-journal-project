@@ -14,18 +14,49 @@
     margin-right: 19px;
 }
 
-.material-symbols-outlined {
-    color: #F55A5A;
-    font-size: 15px;
-}
-
 .card--head {
     display: flex;
     padding-top: 20px;
+    padding-bottom: 7px;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    color: #F55A5A;
+    font-size: 15px;
+    margin-right: 4px;
+}
+
+.card--location {
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-right: 12px;
+}
+
+.card--link {
+    color: #918E9B;
+    font-size: 11px;
+}
+
+.card--link:hover {
+    color: #b8b4c5;
 }
 
 .card--bottom {
     float: bottom;
+}
+
+.card--title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card--date {
+    font-size: 11px;
+    color: #2B283A;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .card--description {
