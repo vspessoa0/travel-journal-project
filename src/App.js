@@ -1,11 +1,25 @@
 import React from 'react';
 import './App.css';
+import data from './data';
 
-import { Navbar } from './components'
+import { Navbar, Card } from './components'
 
 const App = () => {
+  const cards = data.map(item => {
+    return (
+      <Card
+        key={item.id}
+        item={item}
+      />
+    )
+  })
   return (
-    <Navbar />
+    <div>
+      <Navbar />
+      <section>
+        {cards}
+      </section>
+    </div>
   )
 }
 

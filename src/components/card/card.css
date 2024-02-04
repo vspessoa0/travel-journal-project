@@ -1,0 +1,33 @@
+.card {
+    height: 168px;
+    width: 470px;
+    margin: auto;
+    margin-top: 36px;
+}
+
+.card--image {
+    width: 125px;
+    height: 168px;
+    border-radius: 9px;
+    object-fit: cover;
+    float: left;
+    margin-right: 19px;
+}
+
+.material-symbols-outlined {
+    color: #F55A5A;
+    font-size: 15px;
+}
+
+.card--head {
+    display: flex;
+    padding-top: 20px;
+}
+
+.card--bottom {
+    float: bottom;
+}
+
+.card--description {
+    font-size: 10px;
+}
